@@ -3,6 +3,8 @@
 #
 FROM php:7.3-fpm-buster
 
+LABEL maintainer="alex@socheat.net"
+
 # Set working directory
 WORKDIR /var/www
 
