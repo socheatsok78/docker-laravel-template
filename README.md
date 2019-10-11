@@ -41,5 +41,7 @@ $ docker build -t my-laravel-app .
 $ docker run -it --rm --name my-running-app my-laravel-app
 ```
 
+Now you can visit `localhost:9000` on you browser.
+
 ### How to install more PHP extensions
 Please visi [Official Docker PHP Image](https://hub.docker.com/_/php) for instruction
