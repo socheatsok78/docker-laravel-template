@@ -1,1 +1,29 @@
 # Laravel Docker Template
+
+## How to use this image
+### Create a `Dockerfile` in your PHP project
+```
+FROM socheatsok78/laravel:latest
+
+# Copy existing application directory permissions
+COPY --chown=www:www . /var/www
+
+# Set working directory
+WORKDIR /var/www
+
+# Expose port 9000 and start php-fpm server
+EXPOSE 9000
+
+# Start application service
+CMD [ "/usr/local/bin/app-service.sh" ]
+```
+
+Then, run the commands to build and run the Docker image:
+
+```sh
+$ docker build -t my-laravel-app .
+$ docker run -it --rm --name my-running-app my-laravel-app
+```
+
+### How to install more PHP extensions
+Please visi [Official Docker PHP Image](https://hub.docker.com/_/php) for instruction
