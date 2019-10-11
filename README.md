@@ -1,4 +1,20 @@
 # Laravel Docker Template
+This image is using `php:7.3-fpm-buster`.
+
+Installed tools:
+- Git
+- Composer
+
+Installed PHP extensions:
+- BCMath PHP Extension
+- Ctype PHP Extension
+- JSON PHP Extension
+- Mbstring PHP Extension
+- OpenSSL PHP Extension
+- PDO PHP Extension
+- Tokenizer PHP Extension
+- XML PHP Extension
+- Redis PHP Extension
 
 ## How to use this image
 ### Create a `Dockerfile` in your PHP project
