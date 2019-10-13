@@ -1,7 +1,6 @@
 # Laravel Docker Template
 
-![Docker Build Status](https://img.shields.io/docker/build/socheatsok78/laravel)
-![MicroBadger Size](https://img.shields.io/microbadger/image-size/socheatsok78/laravel)
+[![MicroBadger Size](https://img.shields.io/microbadger/image-size/socheatsok78/laravel/latest)](https://hub.docker.com/r/socheatsok78/laravel)
 
 This image is using `php:7.3-fpm-buster`.
 
